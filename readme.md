@@ -22,6 +22,8 @@ Follow the instructions here to find your Spotify `sp_dc` key:   [Finding sp_dc]
 
 ## Usage
 
+That's it! Run the application. You should see the GUI application, which will stay open until closed and will show translated lyrics of each song in real-time. Yes it is as simple as running a single .py file, weren't you supposed to clone 5 Github repos and launch 3 Docker containers? 😂
+
 <table>
   <tr>
     <td style="text-align: center;">
@@ -35,7 +37,7 @@ Follow the instructions here to find your Spotify `sp_dc` key:   [Finding sp_dc]
   </tr>
 </table>
 
-That's it! Run the application. You should see the GUI application, which will stay open until closed and will show translated lyrics of each song in real-time.
+
 
 The program uses the Google Translate API to translate lyrics from any language to English, which often takes 2-3 seconds. It builds a cache of lyrics of the last played 1000 songs to prevent translating the same songs repeatedly. You can change the cache size to any value (or 0 to disable it altogether). The cache will be written/read to the `lyrics_cache.pkl` file.
 
