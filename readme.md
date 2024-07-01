@@ -39,6 +39,8 @@ That's it! Run the application. You should see the GUI application, which will s
 
 The program uses the Google Translate API to translate lyrics from any language to English, which often takes 2-3 seconds. It builds a cache of lyrics of the last played 1000 songs to prevent translating the same songs repeatedly. You can change the cache size to any value (or 0 to disable it altogether). The cache will be written/read to the `lyrics_cache.pkl` file.
 
+Video Demo: https://youtu.be/OBQi-sNb3Ss
+
 ## Thanks
 
 Thanks to @akashrchandran for his Spotify Lyrics Api which made my app possible: https://github.com/akashrchandran/syrics <br>
