@@ -25,12 +25,12 @@ Follow the instructions here to find your Spotify `sp_dc` key:   [Finding sp_dc]
 <table>
   <tr>
     <td style="text-align: center;">
-      <p>Native lyrics display of Spotify</p>
+      <p>Spotify's Native Lyrics Display</p>
       <img src="https://i.imgur.com/7PoYKzL.png" alt="Native lyrics display of Spotify" style="width: 100%;" />
     </td>
     <td style="text-align: center;">
-      <p>The app with translation</p>
-      <img src="https://i.imgur.com/IY6v5y8.png" alt="The app with translation" style="width: 100%;" />
+      <p>Translated Lyrics Display on the App</p>
+      <img src="https://i.imgur.com/IY6v5y8.png" alt="The app with translation" style="width: 91%;" />
     </td>
   </tr>
 </table>
@@ -43,7 +43,7 @@ The program uses the Google Translate API to translate lyrics from any language 
 
 Thanks to @akashrchandran for his Spotify Lyrics Api which made my app possible:
 https://github.com/akashrchandran/syrics <br>
-And thanks to Melisa @melisahingl for her wonderful Russian music playlist :)
+And thanks to [@Melisa](https://github.com/melisahingl) @melisahingl for her wonderful Russian music playlist :)
 
 ## Contact
 
