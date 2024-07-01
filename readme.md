@@ -1,6 +1,6 @@
 # Spotify Translator
 
-Display translated lyrics of the currently playing Spotify track in real-time! It is 2024 but for some reason Spotify still doesn't provide a native solution to translate lyrics of non-English songs, so I had to come up with this solution.
+Display translated lyrics of the currently playing Spotify track in real-time, extremely simple to use! It is 2024 but for some reason Spotify still doesn't provide a native solution to translate lyrics of non-English songs, so I had to come up with this solution.
 
 ## Installation
 
