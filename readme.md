@@ -41,11 +41,10 @@ The program uses the Google Translate API to translate lyrics from any language 
 
 ## Thanks
 
-Thanks to @akashrchandran for his Spotify Lyrics Api which made my app possible:
-https://github.com/akashrchandran/syrics <br>
+Thanks to @akashrchandran for his Spotify Lyrics Api which made my app possible: https://github.com/akashrchandran/syrics <br>
 And thanks to [@Melisa](https://github.com/melisahingl) @melisahingl for her wonderful Russian music playlist :)
 
 ## Contact
 
 You can write to me at atahanuz23@gmail.com for anything at any time.  
-However, it will be better if you raise an issue in the repo or submit a PR so everyone can see and contribute to the discussion.
+However if it is about this program, it will be better if you raise an issue in the repo or submit a PR so everyone can see and contribute to the discussion.
