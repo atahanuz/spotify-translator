@@ -1,6 +1,6 @@
-# spotify-translator
+# Spotify Translator
 
-Display translated lyrics of the currently playing Spotify track in real time, extremely simple to use! It is 2024 but Spotify still doesn't provide a native solution to translate lyrics of the non-English songs so I had to come with this solution.
+Display translated lyrics of the currently playing Spotify track in real-time! It is 2024, but Spotify still doesn't provide a native solution to translate lyrics of non-English songs, so I had to come up with this solution.
 
 ## Installation
 
@@ -12,25 +12,40 @@ pip install deep-translator
 pip install sv-ttk
 ```
 
+Now download `app.py`. You only need to edit this part:
 
-Now download app.py.
-You only need to edit this part
 ```python
 sp = Spotify("your_sp_dc")
 ```
-Follow the instructions here to find your Spotfiy sp_dc key <br>
-https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc
+
+Follow the instructions here to find your Spotify `sp_dc` key:   [Finding sp_dc](https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc)
 
 ## Usage
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://i.imgur.com/7PoYKzL.png" alt="Native lyrics display of Spotify" style="width: 40%;" />
-    <img src="https://i.imgur.com/IY6v5y8.png" alt="App with translation" style="width: 40%;" />
-</div>
 
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <p>Native lyrics display of Spotify</p>
+      <img src="https://i.imgur.com/7PoYKzL.png" alt="Native lyrics display of Spotify" style="width: 100%;" />
+    </td>
+    <td style="text-align: center;">
+      <p>The app with translation</p>
+      <img src="https://i.imgur.com/IY6v5y8.png" alt="The app with translation" style="width: 100%;" />
+    </td>
+  </tr>
+</table>
 
+That's it! Run the application. You should see the GUI application, which will stay open until closed and will show translated lyrics of each song in real-time.
 
-That's it, run the application. You should see the GUI application which will stay open until closed and will show translated lyrics of each song in real time.
+The program uses the Google Translate API to translate lyrics from any language to English, which often takes 2-3 seconds. It builds a cache of lyrics of the last played 1000 songs to prevent translating the same songs repeatedly. You can change the cache size to any value (or 0 to disable it altogether). The cache will be written/read to the `lyrics_cache.pkl` file.
 
-The program uses Google Translate API to translate lyrics from any language to English, it often takes 2-3 seconds. It builds a cache of lyrics of the last played 1000 songs to prevent translating the same songs over and over. You can change the cache size to any value (or 0 to disable it altogether). The cache will be written/read to lyrics_cache.pkl file.
+## Thanks
 
+Thanks to @akashrchandran for his Spotify Lyrics Api which made my app possible:
+https://github.com/akashrchandran/syrics <br>
+And thanks to Melisa @melisahingl for her wonderful Russian music playlist :)
 
+## Contact
+
+You can write to me at atahanuz23@gmail.com for anything at any time.  
+However, it will be better if you raise an issue in the repo or submit a PR so everyone can see and contribute to the discussion.
