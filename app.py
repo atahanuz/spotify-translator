@@ -9,7 +9,7 @@ import os
 import sv_ttk
 
 # Initialize Spotify API
-sp = Spotify("AQDx5Xh6kZ5Yjycv8GMKpURhq-SbGxOm5DQ5lZA12o9qpPJ9tIiptQlAZw_MYbpiVQn6bDFuC_znBNcj8MooAe-25abXD7Ed8hqy-j8hB2dlAuUUtxJcpSjHGol4PNUQSuM2Uu159SHngqH3Wkn0GLHbOq4n_94R")
+sp = Spotify("your_sp_dc")
 
 # Cache to store the translated lyrics
 CACHE_FILE = 'lyrics_cache.pkl'
