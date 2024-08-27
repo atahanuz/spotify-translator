@@ -12,7 +12,7 @@ pip install deep-translator
 pip install sv-ttk
 ```
 
-Now download `app.py`. You only need to edit this part in the code:
+Now download `app.py`. You only need to edit this part in the code (the 12th line):
 
 ```python
 sp = Spotify("your_sp_dc")
