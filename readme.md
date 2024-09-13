@@ -22,7 +22,12 @@ Follow the instructions here to find your Spotify `sp_dc` key:   [Finding sp_dc]
 
 ## Usage
 
-Run the app.py, that's it! You should see the GUI application, which will stay open until closed and will show translated lyrics of each song in real-time. Yes it is as simple as running a single .py file, weren't you supposed to clone 5 Github repos and launch 3 Docker containers? 😂
+Run the app.py with this command, that's it! 
+```
+python app.py
+```
+
+You should see the GUI application, which will stay open until closed and will show translated lyrics of each song in real-time. Yes it is as simple as running a single .py file, weren't you supposed to clone 5 Github repos and launch 3 Docker containers? 😂
 
 <table>
   <tr>
