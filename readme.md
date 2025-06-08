@@ -50,7 +50,6 @@ Video Demo: https://youtu.be/OBQi-sNb3Ss
 ## Thanks
 
 Thanks to @akashrchandran for his Spotify Lyrics Api which made my app possible: https://github.com/akashrchandran/syrics <br>
-And thanks to Melisa [@melisahingl ](https://github.com/melisahingl) for her wonderful Russian music playlist :)
 
 ## Contact
 
