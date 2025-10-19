@@ -1,6 +1,11 @@
 # Spotify Translator
 
 Display translated lyrics of the currently playing Spotify track in real-time, extremely simple to use!
+
+
+# Oct 2025 Edit: MRdevX has released a fork of my app, I suggest taking a look at his version too! ttps://github.com/MRdevX/spotify-lyrics-translator
+
+
 ## Installation
 
 To get started, install the required Python packages:
